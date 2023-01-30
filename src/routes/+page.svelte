@@ -1,11 +1,12 @@
 <script>
 	import Counter from './Counter.svelte';
+	import Form from './login/Form.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Pagina Principal</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
@@ -22,7 +23,7 @@
 	</h1>
 
 	<Counter />
-	<Counter />
+	<Form />
 </section>
 
 <style>
