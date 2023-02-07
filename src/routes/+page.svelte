@@ -20,9 +20,7 @@
 
 		Project Seattle<br />
 	</h1>
-
-	<Counter />
-	<Counter />
+		<Counter />
 </section>
 
 <style>
